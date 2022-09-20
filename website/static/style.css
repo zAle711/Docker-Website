@@ -1,0 +1,117 @@
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.message {
+    border: 2px solid #011627;
+    background-color: #2ec4b6;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.username {
+    margin-top: 5px;
+    width: 50px;
+    text-align: center;
+}
+
+.user {
+    float: left;
+    margin-right: 20px;
+}
+body {
+    background-color: #fdfffc;
+}
+/* .username {
+    position: relative;
+    top: -100;
+} */
+
+.content {
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #011627;
+    /* background-color: #ffffff; */
+    height: 90%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.messages_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.likes {
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+
+.n_likes {
+    width: 100%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.likes_text {
+    width: 100%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #2ec4b6;
+    border: 2px solid #011627;
+    width: 450px;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    /* display: inline-block; */
+    width: 100px;
+}
+
+.input-message {
+    width: 280px;
+    resize: none;
+}
+.form-button {
+
+    padding: 10px;
+    float: right;    
+}
+
+h1 {
+    text-align: center;
+}
+
+.refresh_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
